@@ -1,0 +1,50 @@
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\Store Management.exe.config
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\Store Management.exe
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\Store Management.pdb
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\VLStoreManagement.csproj.AssemblyReference.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\VLStoreManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.MainForm.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Properties.Resources.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\VLStoreManagement.csproj.GenerateResource.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\VLStoreManagement.csproj.CoreCompileInputs.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.exe
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.pdb
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Forms.StoresManagement.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Forms.Products.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.BarCode.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1Command.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1Input.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.Calendar.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.BarCode.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1Command.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1Input.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.Calendar.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.exe.licenses
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\VLStoreManagement.csproj.CopyComplete
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.C1Excel.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.C1Zip.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.Bitmap.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1DX.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.C1Excel.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.C1Zip.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.Bitmap.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1DX.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1FlexGrid.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\VLStoreModel.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\EntityFramework.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\VLStoreModel.pdb
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\VLStoreModel.dll.config
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1FlexGrid.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\EntityFramework.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.C1Report.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.C1Report.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Forms.StockControl.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Forms.Inventory.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1InputPanel.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1List.4.5.2.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1InputPanel.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\C1.Win.C1List.4.5.2.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Forms.Regularizations.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Forms.TransferStores.resources

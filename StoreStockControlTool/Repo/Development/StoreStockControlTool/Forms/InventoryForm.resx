@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="BSStores.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="c1cbStores.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA0SURBVChTdYkBCgAgDAL9/6eLIsd0eSCKhw/r9aCLtC88
+        vAdHMEIXKUIUhMK76EfagglgA6CqHOQpL6GyAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="c1cbStores.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Level="0" Caption="IdStore" DataField="IdStore"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreName" DataField="StoreName"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreDescription" DataField="StoreDescription"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Owner" DataField="Owner"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Area" DataField="Area"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreLocation" DataField="StoreLocation"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Remarks" DataField="Remarks"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Inventory" DataField="Inventory"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Regularizations" DataField="Regularizations"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreLocations" DataField="StoreLocations"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Temp_Employees" DataField="Temp_Employees"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Stores1" DataField="Stores1"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Stores2" DataField="Stores2"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Temp_Areas" DataField="Temp_Areas"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1List.Design.ContextWrapper"&gt;&lt;Data&gt;Style11{}Style10{}Style13{AlignHorz:Far;}Style12{AlignHorz:Far;}Style39{AlignHorz:Near;}Style38{}Style2{}Style36{AlignHorz:Near;}Style19{AlignHorz:Near;}Style18{AlignHorz:Near;}Heading{Wrap:True;Border:Raised,,1, 1, 1, 1;AlignVert:Center;BackColor:Control;ForeColor:ControlText;}RecordSelector{AlignImage:Center;}Style15{AlignHorz:Near;}OddRow{}Style22{AlignHorz:Near;}Style50{}Caption{AlignHorz:Center;}Style34{AlignHorz:Near;}Style3{}Style49{AlignHorz:Near;}Style32{}Style14{}Style43{AlignHorz:Near;}Style24{AlignHorz:Near;}Style7{}EvenRow{BackColor:Aqua;}Style4{}Footer{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style48{AlignHorz:Near;}Style1{}Style40{AlignHorz:Near;}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style33{AlignHorz:Near;}Style52{AlignHorz:Near;}Style35{}Style9{AlignHorz:Near;}Style6{}Selected{ForeColor:WindowText;BackColor:183, 219, 255;}Style47{}Style29{}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Style5{}Style37{AlignHorz:Near;}Style45{AlignHorz:Near;}Style44{}Style8{}Style46{AlignHorz:Near;}Style41{}Style28{AlignHorz:Near;}Style51{AlignHorz:Near;}Style42{AlignHorz:Near;}Style53{}Normal{Font:Segoe UI, 9pt;}Style25{AlignHorz:Near;}Style23{}Style27{AlignHorz:Near;}Style26{}Style21{AlignHorz:Near;}Style20{}Style31{AlignHorz:Near;}Style30{AlignHorz:Near;}Style17{}Style16{AlignHorz:Near;}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1List.ListBoxView AllowColSelect="False" Name="Split[0,0]" CaptionHeight="17" ColumnCaptionHeight="17" ColumnFooterHeight="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;ClientRect&gt;0, 0, 298, 98&lt;/ClientRect&gt;&lt;Height&gt;98&lt;/Height&gt;&lt;BorderSide&gt;Right&lt;/BorderSide&gt;&lt;VScrollBar /&gt;&lt;HScrollBar /&gt;&lt;CaptionStyle parent="Style2" me="Style9" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style7" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style11" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style6" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style8" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style10" /&gt;&lt;SelectedStyle parent="Selected" me="Style5" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style12" /&gt;&lt;Style parent="Style1" me="Style13" /&gt;&lt;FooterStyle parent="Style3" me="Style14" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style15" /&gt;&lt;Style parent="Style1" me="Style16" /&gt;&lt;FooterStyle parent="Style3" me="Style17" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style18" /&gt;&lt;Style parent="Style1" me="Style19" /&gt;&lt;FooterStyle parent="Style3" me="Style20" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style21" /&gt;&lt;Style parent="Style1" me="Style22" /&gt;&lt;FooterStyle parent="Style3" me="Style23" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style24" /&gt;&lt;Style parent="Style1" me="Style25" /&gt;&lt;FooterStyle parent="Style3" me="Style26" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style27" /&gt;&lt;Style parent="Style1" me="Style28" /&gt;&lt;FooterStyle parent="Style3" me="Style29" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;5&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style30" /&gt;&lt;Style parent="Style1" me="Style31" /&gt;&lt;FooterStyle parent="Style3" me="Style32" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;6&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style33" /&gt;&lt;Style parent="Style1" me="Style34" /&gt;&lt;FooterStyle parent="Style3" me="Style35" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;7&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style36" /&gt;&lt;Style parent="Style1" me="Style37" /&gt;&lt;FooterStyle parent="Style3" me="Style38" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;8&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style39" /&gt;&lt;Style parent="Style1" me="Style40" /&gt;&lt;FooterStyle parent="Style3" me="Style41" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;9&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style42" /&gt;&lt;Style parent="Style1" me="Style43" /&gt;&lt;FooterStyle parent="Style3" me="Style44" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;10&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style45" /&gt;&lt;Style parent="Style1" me="Style46" /&gt;&lt;FooterStyle parent="Style3" me="Style47" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;11&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style48" /&gt;&lt;Style parent="Style1" me="Style49" /&gt;&lt;FooterStyle parent="Style3" me="Style50" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;12&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style51" /&gt;&lt;Style parent="Style1" me="Style52" /&gt;&lt;FooterStyle parent="Style3" me="Style53" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;13&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;/C1.Win.C1List.ListBoxView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;/Blob&gt;</value>
+  </data>
+  <metadata name="BSUsers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>346, 17</value>
+  </metadata>
+  <data name="c1ComboUser.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA0SURBVChTdYkBCgAgDAL9/6eLIsd0eSCKhw/r9aCLtC88
+        vAdHMEIXKUIUhMK76EfagglgA6CqHOQpL6GyAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="c1ComboUser.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Level="0" Caption="IdStore" DataField="IdStore"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreName" DataField="StoreName"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreDescription" DataField="StoreDescription"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Owner" DataField="Owner"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Area" DataField="Area"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreLocation" DataField="StoreLocation"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Remarks" DataField="Remarks"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Inventory" DataField="Inventory"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Regularizations" DataField="Regularizations"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="StoreLocations" DataField="StoreLocations"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Temp_Employees" DataField="Temp_Employees"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Stores1" DataField="Stores1"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Stores2" DataField="Stores2"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Level="0" Caption="Temp_Areas" DataField="Temp_Areas"&gt;&lt;ValueItems /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1List.Design.ContextWrapper"&gt;&lt;Data&gt;Style11{}Style10{}Style13{AlignHorz:Far;}Style12{AlignHorz:Far;}Style39{AlignHorz:Near;}Style38{}Style2{}Style3{}Style18{AlignHorz:Near;}Heading{Wrap:True;Border:Raised,,1, 1, 1, 1;AlignVert:Center;BackColor:Control;ForeColor:ControlText;}RecordSelector{AlignImage:Center;}Style15{AlignHorz:Near;}OddRow{}Style22{AlignHorz:Near;}Caption{AlignHorz:Center;}Style51{AlignHorz:Near;}Style49{AlignHorz:Near;}Style8{}Style14{}Style4{}Style7{}EvenRow{BackColor:Aqua;}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style48{AlignHorz:Near;}Style26{}Style1{}Style17{}Style42{AlignHorz:Near;}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style35{}Style20{}Style9{AlignHorz:Near;}Style19{AlignHorz:Near;}Style16{AlignHorz:Near;}Style6{}Selected{ForeColor:WindowText;BackColor:183, 219, 255;}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Style23{}Style29{}Footer{}Style5{}Normal{Font:Segoe UI, 9pt;}Style37{AlignHorz:Near;}Style28{AlignHorz:Near;}Style45{AlignHorz:Near;}Style44{}Style47{}Style46{AlignHorz:Near;}Style41{}Style40{AlignHorz:Near;}Style43{AlignHorz:Near;}Style50{}Style53{}Style52{AlignHorz:Near;}Style25{AlignHorz:Near;}Style24{AlignHorz:Near;}Style27{AlignHorz:Near;}Style34{AlignHorz:Near;}Style21{AlignHorz:Near;}Style36{AlignHorz:Near;}Style31{AlignHorz:Near;}Style30{AlignHorz:Near;}Style33{AlignHorz:Near;}Style32{}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1List.ListBoxView AllowColSelect="False" Name="Split[0,0]" CaptionHeight="17" ColumnCaptionHeight="17" ColumnFooterHeight="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;ClientRect&gt;0, 0, 298, 98&lt;/ClientRect&gt;&lt;Height&gt;98&lt;/Height&gt;&lt;BorderSide&gt;Right&lt;/BorderSide&gt;&lt;VScrollBar /&gt;&lt;HScrollBar /&gt;&lt;CaptionStyle parent="Style2" me="Style9" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style7" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style11" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style6" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style8" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style10" /&gt;&lt;SelectedStyle parent="Selected" me="Style5" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style12" /&gt;&lt;Style parent="Style1" me="Style13" /&gt;&lt;FooterStyle parent="Style3" me="Style14" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style15" /&gt;&lt;Style parent="Style1" me="Style16" /&gt;&lt;FooterStyle parent="Style3" me="Style17" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style18" /&gt;&lt;Style parent="Style1" me="Style19" /&gt;&lt;FooterStyle parent="Style3" me="Style20" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style21" /&gt;&lt;Style parent="Style1" me="Style22" /&gt;&lt;FooterStyle parent="Style3" me="Style23" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style24" /&gt;&lt;Style parent="Style1" me="Style25" /&gt;&lt;FooterStyle parent="Style3" me="Style26" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style27" /&gt;&lt;Style parent="Style1" me="Style28" /&gt;&lt;FooterStyle parent="Style3" me="Style29" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;5&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style30" /&gt;&lt;Style parent="Style1" me="Style31" /&gt;&lt;FooterStyle parent="Style3" me="Style32" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;6&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style33" /&gt;&lt;Style parent="Style1" me="Style34" /&gt;&lt;FooterStyle parent="Style3" me="Style35" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;7&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style36" /&gt;&lt;Style parent="Style1" me="Style37" /&gt;&lt;FooterStyle parent="Style3" me="Style38" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;8&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style39" /&gt;&lt;Style parent="Style1" me="Style40" /&gt;&lt;FooterStyle parent="Style3" me="Style41" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;9&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style42" /&gt;&lt;Style parent="Style1" me="Style43" /&gt;&lt;FooterStyle parent="Style3" me="Style44" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;10&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style45" /&gt;&lt;Style parent="Style1" me="Style46" /&gt;&lt;FooterStyle parent="Style3" me="Style47" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;11&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style48" /&gt;&lt;Style parent="Style1" me="Style49" /&gt;&lt;FooterStyle parent="Style3" me="Style50" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;12&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style51" /&gt;&lt;Style parent="Style1" me="Style52" /&gt;&lt;FooterStyle parent="Style3" me="Style53" /&gt;&lt;ColumnDivider&gt;&lt;Style&gt;Single&lt;/Style&gt;&lt;/ColumnDivider&gt;&lt;Height&gt;18&lt;/Height&gt;&lt;DCIdx&gt;13&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;/C1.Win.C1List.ListBoxView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;/Blob&gt;</value>
+  </data>
+  <data name="c1ButtonClear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAALFJREFUOE/N0TEOAVEQgOFHstFJ1IptdKJQuIFG7QA0ei6gcg5RiE5BthANV9C4
+        AKEWhULBP6q3b+ZFu3/yFft2J9ndcYWvjS12ERtES3HH5w+zGs6wBnxXqCo4wBrwPdBCrhKWsAZ8b3Sh
+        msEaCA2gGsF6ODSFqocX+mgYOpCNzCGfmUt2/cTwd6WTn3rEHokchN1gvhaVscIJVTmwkl1OMDYscEEd
+        0dbIIuReE4XNuS9gTFTpPlF7uAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1ButtonSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAN5JREFUOE+1kT2KAkEUBsdE2Euo6Rp6CwMv4aKx5oIgeAANTMSTCB7AxEA08QKb
+        ysImK2pVTzIwY6/4U1DQ3dD9+n0veQef2MMFjrCJJfyXMo7xhN+4xD2ecYVVjOLlX+xgtmIDd7jBDw+K
+        qKOVu2GXp4JHHIRdAfbst2O9TnGdLvMYmD3H+MKfdJnHtA0sxhAP6TKPozJtAyvCCW1xHnYF2LujMm0D
+        y+LlGf5hzYNbOGdHZdoTtGe/bWUvX7CPUZyzozJtA7Nnv21lL9/1SIyXPtIOuwcxn1a6fIokuQLxbi3M
+        PQTmywAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cfgInventory.ColumnInfo" xml:space="preserve">
+    <value>9,1,0,0,0,-1,Columns:1{Name:"IdInventory";Caption:"IdInventory";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	2{Name:"IdStore";Caption:"IdStore";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	3{Name:"InventoryDate";Caption:"InventoryDate";Style:"Format:""d"";DataType:System.DateTime;TextAlign:LeftCenter;";}	4{Name:"InventoryUser";Caption:"InventoryUser";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"Remarks";Caption:"Remarks";Style:"DataType:System.String;TextAlign:LeftCenter;";}	6{Name:"Stores";Caption:"Stores";Visible:False;Style:"DataType:VLStoreModel.Model.Stores;TextAlign:GeneralCenter;";}	7{Name:"Temp_Employees";Caption:"Temp_Employees";Visible:False;Style:"DataType:VLStoreModel.Model.Temp_Employees;TextAlign:GeneralCenter;";}	8{Name:"InventoryProducts";Caption:"InventoryProducts";Style:"DataType:System.Collections.Generic.ICollection`1[VLStoreModel.Model.InventoryProducts];TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <metadata name="BSInventory.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <data name="cfgInventory.StyleInfo" xml:space="preserve">
+    <value>Normal{}	Alternate{}	Fixed{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:183, 219, 255;ForeColor:ControlText;SearchBackColor:Orange;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	FrozenAlternate{}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	Footer{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="cfgProducts.ColumnInfo" xml:space="preserve">
+    <value>8,1,0,0,0,-1,Columns:1{Name:"IdInventory";Caption:"IdInventory";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	2{Name:"Expr1";Caption:"Expr1";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"Expr2";Caption:"Expr2";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"Location";Caption:"Location";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"Quantity";Caption:"Quantity";Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	6{Name:"Lot";Caption:"Lot";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"ExpireDate";Caption:"ExpireDate";Style:"DataType:System.Nullable`1[System.DateTime];TextAlign:LeftCenter;";}	</value>
+  </data>
+  <metadata name="vInventoryProductsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>441, 17</value>
+  </metadata>
+  <data name="cfgProducts.StyleInfo" xml:space="preserve">
+    <value>Normal{}	Alternate{}	Fixed{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:183, 219, 255;ForeColor:ControlText;SearchBackColor:Orange;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	FrozenAlternate{}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	Footer{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="c1ButtonImportWithStock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAMlJREFUOE+10r0NAjEMhuGTaNiDhoUoqJiDDYAlWIA1oGQLBqCADgk/kJxyfwLp
+        4JNeyZc4jv1dqn9pHqyDfUJs7aOmwS54BLfgmBBb2wZyemXjHFyDVTAJssTW7MnpLeJmCbPXV7/sydFJ
+        Q+bToltKLYLlO6wlR27DEyaZs2ybDolScu6BM7U4zawsNzt4SYitZZ0CZ2q1C2i7XaAcpVNg9AhDJrr1
+        KxNp1G+k0Q+JbKiuRZ4wC/kpb4LBw6XMxyROQ9yZ+QeqqidE7j5VEvOIwwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1buttonImportAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAMlJREFUOE+10r0NAjEMhuGTaNiDhoUoqJiDDYAlWIA1oGQLBqCADgk/kJxyfwLp
+        4JNeyZc4jv1dqn9pHqyDfUJs7aOmwS54BLfgmBBb2wZyemXjHFyDVTAJssTW7MnpLeJmCbPXV7/sydFJ
+        Q+bToltKLYLlO6wlR27DEyaZs2ybDolScu6BM7U4zawsNzt4SYitZZ0CZ2q1C2i7XaAcpVNg9AhDJrr1
+        KxNp1G+k0Q+JbKiuRZ4wC/kpb4LBw6XMxyROQ9yZ+QeqqidE7j5VEvOIwwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1Cancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAF5JREFUOE+tjFEKwDAMQnP03XxboEIIVgPtAz+aPo2bPCsO6uXhXVEjW69+7Eas
+        owRbBkwcl0Ev1NgyYCPjcnI0wMqIHenlfLMbRYl2xAo/0qmfrAyklwdVBlNvQsQHyM9XwQJKnu4AAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="c1Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAALhJREFUOE+1k7ENwjAUBU3NGAwAo1CwAszDFAgkUkBDR8sQzECFqOGOQBRsK1gi
+        nHRSbP//HEU/oS8GuMANnvGA28g7TjGLzVes0MIT5gJ0ggnebLNYNKsfPxjiES+YhLxvEQPWaEjbEbZD
+        xtgQB+RcohjievVcvWgHlJDU9xoQv3qsfA3IfcQ9FgfYEOPe/wIcpF39WBTg0NnT4CjfsGuU3fPMGsd+
+        jg3+TG50/UzueWaNtfb8SggPDshdYWv+oEYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="BSProducts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>233, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>69</value>
+  </metadata>
+</root>

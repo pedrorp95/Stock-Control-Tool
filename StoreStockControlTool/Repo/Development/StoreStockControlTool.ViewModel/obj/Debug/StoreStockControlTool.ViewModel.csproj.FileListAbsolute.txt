@@ -1,0 +1,14 @@
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\StoreStockControlTool.ViewModel.dll
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\StoreStockControlTool.ViewModel.pdb
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\AutoMapper.dll
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\StoreStockControlTool.Model.dll
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\EntityFramework.dll
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\StoreStockControlTool.Model.pdb
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\StoreStockControlTool.Model.dll.config
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\AutoMapper.pdb
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\bin\Debug\AutoMapper.xml
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\obj\Debug\StoreStockControlTool.ViewModel.csproj.AssemblyReference.cache
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\obj\Debug\StoreStockControlTool.ViewModel.csproj.CoreCompileInputs.cache
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\obj\Debug\StoreStockControlTool.ViewModel.csproj.CopyComplete
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\obj\Debug\StoreStockControlTool.ViewModel.dll
+C:\Fuentes\StoreStockControlTool\Repo\Development\StoreStockControlTool.ViewModel\obj\Debug\StoreStockControlTool.ViewModel.pdb

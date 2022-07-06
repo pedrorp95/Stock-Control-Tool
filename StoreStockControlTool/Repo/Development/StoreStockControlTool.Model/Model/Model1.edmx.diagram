@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ef30848f41ab45c4b3748aa581770385" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="VLStoreManagementModel.Inventory" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.InventoryProducts" Width="1.5" PointX="7.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.Products" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.ProductsProviders" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.ProductTypes" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.RegularizationProducts" Width="1.5" PointX="7.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.Regularizations" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.StoreLocations" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.Stores" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.sysdiagrams" Width="1.5" PointX="14.125" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.Temp_Employees" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.Temp_Providers" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Inventory_Stores" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Inventory_Temp_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_InventoryProducts_Inventory" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_InventoryProducts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_InventoryProducts_StoreLocations" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Products_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_ProductsProviders_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_RegularizationProducts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_ProductsProviders_Temp_Providers" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_RegularizationProducts_Regularizations" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_RegularizationProducts_StoreLocations" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_RegularizationProducts_Temp_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Regularizations_Stores" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Regularizations_Temp_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_StoreLocations_Stores" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Stores_Temp_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Products_Products1" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Stores_Stores" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.Temp_Areas" Width="1.5" PointX="6.125" PointY="23.125" IsExpanded="true" />
+        <AssociationConnector Association="VLStoreManagementModel.FK_Stores_Stores1" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.VStockControl" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.vInventoryProducts" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="VLStoreManagementModel.vRegularizationProducts" Width="1.5" PointX="9.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

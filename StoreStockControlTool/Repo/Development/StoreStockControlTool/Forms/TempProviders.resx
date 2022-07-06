@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="BSCurrentProviders.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="c1Cancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAF5JREFUOE+tjFEKwDAMQnP03XxboEIIVgPtAz+aPo2bPCsO6uXhXVEjW69+7Eas
+        owRbBkwcl0Ev1NgyYCPjcnI0wMqIHenlfLMbRYl2xAo/0qmfrAyklwdVBlNvQsQHyM9XwQJKnu4AAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="c1Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAALhJREFUOE+1k7ENwjAUBU3NGAwAo1CwAszDFAgkUkBDR8sQzECFqOGOQBRsK1gi
+        nHRSbP//HEU/oS8GuMANnvGA28g7TjGLzVes0MIT5gJ0ggnebLNYNKsfPxjiES+YhLxvEQPWaEjbEbZD
+        xtgQB+RcohjievVcvWgHlJDU9xoQv3qsfA3IfcQ9FgfYEOPe/wIcpF39WBTg0NnT4CjfsGuU3fPMGsd+
+        jg3+TG50/UzueWaNtfb8SggPDshdYWv+oEYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cfgProviders.ColumnInfo" xml:space="preserve">
+    <value>12,1,0,0,0,-1,Columns:1{Name:"ProviderCode";Caption:"ProviderCode";Style:"DataType:System.String;TextAlign:LeftCenter;";}	2{Name:"ProviderName";Caption:"ProviderName";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"SAPProvidercode";Caption:"SAPProvidercode";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"Address";Caption:"Address";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"City";Caption:"City";Style:"DataType:System.String;TextAlign:LeftCenter;";}	6{Name:"PostalZip";Caption:"PostalZip";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"Country";Caption:"Country";Style:"DataType:System.String;TextAlign:LeftCenter;";}	8{Name:"CountryCode";Caption:"CountryCode";Style:"DataType:System.String;TextAlign:LeftCenter;";}	9{Name:"Telephone";Caption:"Telephone";Style:"DataType:System.String;TextAlign:LeftCenter;";}	10{Name:"Active";Caption:"Active";Style:"DataType:System.Nullable`1[System.Boolean];TextAlign:LeftCenter;ImageAlign:CenterCenter;";}	11{Name:"ProductsProviders";Caption:"ProductsProviders";Style:"DataType:System.Collections.Generic.ICollection`1[VLStoreModel.Model.ProductsProviders];TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <metadata name="BSProviders.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>392, 17</value>
+  </metadata>
+  <data name="cfgProviders.StyleInfo" xml:space="preserve">
+    <value>Normal{}	Alternate{}	Fixed{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:183, 219, 255;ForeColor:ControlText;SearchBackColor:Orange;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	FrozenAlternate{}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	Footer{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="c1ButtonClear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAALFJREFUOE/N0TEOAVEQgOFHstFJ1IptdKJQuIFG7QA0ei6gcg5RiE5BthANV9C4
+        AKEWhULBP6q3b+ZFu3/yFft2J9ndcYWvjS12ERtES3HH5w+zGs6wBnxXqCo4wBrwPdBCrhKWsAZ8b3Sh
+        msEaCA2gGsF6ODSFqocX+mgYOpCNzCGfmUt2/cTwd6WTn3rEHokchN1gvhaVscIJVTmwkl1OMDYscEEd
+        0dbIIuReE4XNuS9gTFTpPlF7uAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1ButtonSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAN5JREFUOE+1kT2KAkEUBsdE2Euo6Rp6CwMv4aKx5oIgeAANTMSTCB7AxEA08QKb
+        ysImK2pVTzIwY6/4U1DQ3dD9+n0veQef2MMFjrCJJfyXMo7xhN+4xD2ecYVVjOLlX+xgtmIDd7jBDw+K
+        qKOVu2GXp4JHHIRdAfbst2O9TnGdLvMYmD3H+MKfdJnHtA0sxhAP6TKPozJtAyvCCW1xHnYF2LujMm0D
+        y+LlGf5hzYNbOGdHZdoTtGe/bWUvX7CPUZyzozJtA7Nnv21lL9/1SIyXPtIOuwcxn1a6fIokuQLxbi3M
+        PQTmywAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="BSCurrentProviders.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="c1buttonDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAALpJREFUOE+10rENwjAQRuFINOxBw0IUVMzBBsASLMAaULILBXRI/B+KoxCCKAxP
+        epJzPl98lzT/Yh7Xcd9qLfaVadzFe7zGY6u12DbKGcXGOV7iKk5iwVrMnpzRIt4sYfZ8GseeHDd5QX+u
+        6C3fkCP3ZSaGpM/+tT8h5xad6TBpwyos4mGgWOEUnekYFljGYQGxwluB6haqh4iqz4jqHwk2VHdFMzEs
+        ll95Ez8e7qM/QzJpWr/1/AOa5gE+uDlhSCuZlgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1buttonAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAMlJREFUOE+10r0NAjEMhuGTaNiDhoUoqJiDDYAlWIA1oGQLBqCADgk/kJxyfwLp
+        4JNeyZc4jv1dqn9pHqyDfUJs7aOmwS54BLfgmBBb2wZyemXjHFyDVTAJssTW7MnpLeJmCbPXV7/sydFJ
+        Q+bToltKLYLlO6wlR27DEyaZs2ybDolScu6BM7U4zawsNzt4SYitZZ0CZ2q1C2i7XaAcpVNg9AhDJrr1
+        KxNp1G+k0Q+JbKiuRZ4wC/kpb4LBw6XMxyROQ9yZ+QeqqidE7j5VEvOIwwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1buttonEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAANBJREFUOE+9k10OwUAYRccje7AFvEpYg0SsxS6EF7uwA5bDg78VeOCe6oyvn9FG
+        Ik5y0pm293bSacM/6cuV7BQzR0uO5cw4lW0JA3mVd7mVbyVzyUXrTQ5lDBNkHseVkk2ph2X7ACU8YFnM
+        SnIFhC/Shjkyp5TrCV9QF+Z8JQy2oCe/CoMtOMmd/BQeybg7CVvAC2IbwYZZGbA7k+fwhS9YSEpYyVnG
+        MNgHJGzBXnITHqUNQ2NBE9mCtTzIWFQnBXz2FbqSklzAy2fPv/MLQngAc4BNmKU4tbkAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="cfgProductsPStock.ColumnInfo" xml:space="preserve">
+    <value>14,1,0,0,0,-1,Columns:1{Name:"Reference";Caption:"Reference";Style:"DataType:System.String;TextAlign:LeftCenter;";}	2{Name:"ProductName";Caption:"ProductName";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"IdType";Caption:"IdType";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	4{Name:"UseExpirationDate";Caption:"UseExpirationDate";Style:"DataType:System.Nullable`1[System.Boolean];TextAlign:LeftCenter;ImageAlign:CenterCenter;";}	5{Name:"UseLot";Caption:"UseLot";Style:"DataType:System.Nullable`1[System.Boolean];TextAlign:LeftCenter;ImageAlign:CenterCenter;";}	6{Name:"StockMin";Caption:"StockMin";Style:"DataType:System.Nullable`1[System.Double];TextAlign:GeneralCenter;";}	7{Name:"QuantityInUse";Caption:"QuantityInUse";Style:"DataType:System.Nullable`1[System.Double];TextAlign:GeneralCenter;";}	8{Name:"WarningForMinStock";Caption:"WarningForMinStock";Style:"DataType:System.Nullable`1[System.Boolean];TextAlign:LeftCenter;ImageAlign:CenterCenter;";}	9{Name:"Dimensions";Caption:"Dimensions";Style:"DataType:System.String;TextAlign:LeftCenter;";}	10{Name:"InventoryProducts";Caption:"InventoryProducts";Style:"DataType:System.Collections.Generic.ICollection`1[VLStoreModel.Model.InventoryProducts];TextAlign:GeneralCenter;";}	11{Name:"ProductTypes";Caption:"ProductTypes";Style:"DataType:VLStoreModel.Model.ProductTypes;TextAlign:GeneralCenter;";}	12{Name:"ProductsProviders";Caption:"ProductsProviders";Style:"DataType:System.Collections.Generic.ICollection`1[VLStoreModel.Model.ProductsProviders];TextAlign:GeneralCenter;";}	13{Name:"RegularizationProducts";Caption:"RegularizationProducts";Style:"DataType:System.Collections.Generic.ICollection`1[VLStoreModel.Model.RegularizationProducts];TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <data name="cfgProductsPStock.StyleInfo" xml:space="preserve">
+    <value>Normal{}	Alternate{}	Fixed{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:183, 219, 255;ForeColor:ControlText;SearchBackColor:Orange;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	FrozenAlternate{}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	Footer{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="c1ButtonDeletep.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAALpJREFUOE+10rENwjAQRuFINOxBw0IUVMzBBsASLMAaULILBXRI/B+KoxCCKAxP
+        epJzPl98lzT/Yh7Xcd9qLfaVadzFe7zGY6u12DbKGcXGOV7iKk5iwVrMnpzRIt4sYfZ8GseeHDd5QX+u
+        6C3fkCP3ZSaGpM/+tT8h5xad6TBpwyos4mGgWOEUnekYFljGYQGxwluB6haqh4iqz4jqHwk2VHdFMzEs
+        ll95Ez8e7qM/QzJpWr/1/AOa5gE+uDlhSCuZlgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="c1AddProvider.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAMlJREFUOE+10r0NAjEMhuGTaNiDhoUoqJiDDYAlWIA1oGQLBqCADgk/kJxyfwLp
+        4JNeyZc4jv1dqn9pHqyDfUJs7aOmwS54BLfgmBBb2wZyemXjHFyDVTAJssTW7MnpLeJmCbPXV7/sydFJ
+        Q+bToltKLYLlO6wlR27DEyaZs2ybDolScu6BM7U4zawsNzt4SYitZZ0CZ2q1C2i7XaAcpVNg9AhDJrr1
+        KxNp1G+k0Q+JbKiuRZ4wC/kpb4LBw6XMxyROQ9yZ+QeqqidE7j5VEvOIwwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="BSProducts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 17</value>
+  </metadata>
+  <data name="cfgProductsProviders.ColumnInfo" xml:space="preserve">
+    <value>9,1,0,0,0,-1,Columns:1{Name:"Reference";Caption:"Reference";Style:"DataType:System.String;TextAlign:LeftCenter;";}	2{Name:"ProviderCode";Caption:"ProviderCode";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"ProviderReference";Caption:"ProviderReference";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"Price";Caption:"Price";Style:"DataType:System.Nullable`1[System.Double];TextAlign:GeneralCenter;";}	5{Name:"DeliveryDays";Caption:"DeliveryDays";Style:"DataType:System.Nullable`1[System.Int32];TextAlign:GeneralCenter;";}	6{Name:"DefaultProvider";Caption:"DefaultProvider";Style:"DataType:System.Nullable`1[System.Boolean];TextAlign:LeftCenter;ImageAlign:CenterCenter;";}	7{Name:"Products";Caption:"Products";Visible:False;Style:"DataType:VLStoreModel.Model.Products;TextAlign:GeneralCenter;";}	8{Name:"Temp_Providers";Caption:"Temp_Providers";Visible:False;Style:"DataType:VLStoreModel.Model.Temp_Providers;TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <data name="cfgProductsProviders.StyleInfo" xml:space="preserve">
+    <value>Normal{}	Alternate{}	Fixed{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:183, 219, 255;ForeColor:ControlText;SearchBackColor:Orange;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	FrozenAlternate{}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	Footer{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	FirstCustomStyle{}	</value>
+  </data>
+  <metadata name="BSProducts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+</root>

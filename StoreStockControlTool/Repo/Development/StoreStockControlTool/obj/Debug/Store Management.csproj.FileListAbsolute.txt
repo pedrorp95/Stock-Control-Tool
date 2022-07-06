@@ -1,0 +1,11 @@
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\Store Management.exe.config
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\Store Management.exe
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\bin\Debug\Store Management.pdb
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.csproj.AssemblyReference.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.csproj.SuggestedBindingRedirects.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.MainForm.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store_Management.Properties.Resources.resources
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.csproj.GenerateResource.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.csproj.CoreCompileInputs.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.exe
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\Store Management\obj\Debug\Store Management.pdb

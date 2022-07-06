@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VLStoreManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Inventory">
+    <Key>
+      <PropertyRef Name="IdInventory" />
+    </Key>
+    <Property Name="IdInventory" Type="int" Nullable="false" />
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="InventoryDate" Type="datetime" Nullable="false" />
+    <Property Name="InventoryUser" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Remarks" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="InventoryProducts">
+    <Key>
+      <PropertyRef Name="IdInventory" />
+      <PropertyRef Name="Order" />
+    </Key>
+    <Property Name="IdInventory" Type="int" Nullable="false" />
+    <Property Name="Order" Type="int" Nullable="false" />
+    <Property Name="Reference" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Lot" Type="varchar" MaxLength="30" />
+    <Property Name="ExpireDate" Type="datetime" />
+    <Property Name="Quantity" Type="float" Nullable="false" />
+    <Property Name="Remarks" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Reference" />
+    </Key>
+    <Property Name="Reference" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ProductName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="IdType" Type="int" Nullable="false" />
+    <Property Name="UseExpirationDate" Type="bit" />
+    <Property Name="UseLot" Type="bit" />
+    <Property Name="StockMin" Type="float" />
+    <Property Name="QuantityInUse" Type="float" />
+    <Property Name="WarningForMinStock" Type="bit" />
+    <Property Name="Dimensions" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProductsProviders">
+    <Key>
+      <PropertyRef Name="Reference" />
+      <PropertyRef Name="ProviderCode" />
+    </Key>
+    <Property Name="Reference" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ProviderCode" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ProviderReference" Type="varchar" MaxLength="30" />
+    <Property Name="Price" Type="float" />
+    <Property Name="DeliveryDays" Type="int" />
+    <Property Name="DefaultProvider" Type="bit" />
+  </EntityType>
+  <EntityType Name="ProductTypes">
+    <Key>
+      <PropertyRef Name="IdType" />
+    </Key>
+    <Property Name="IdType" Type="int" Nullable="false" />
+    <Property Name="TypeName" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RegularizationProducts">
+    <Key>
+      <PropertyRef Name="IdRegularization" />
+      <PropertyRef Name="Order" />
+    </Key>
+    <Property Name="IdRegularization" Type="int" Nullable="false" />
+    <Property Name="Order" Type="int" Nullable="false" />
+    <Property Name="Reference" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Lot" Type="varchar" MaxLength="30" />
+    <Property Name="ExpiredDate" Type="datetime" />
+    <Property Name="QuantityIn" Type="float" />
+    <Property Name="QuantityOut" Type="float" />
+    <Property Name="UserForOut" Type="varchar" MaxLength="20" />
+    <Property Name="Remarks" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Regularizations">
+    <Key>
+      <PropertyRef Name="IdRegularization" />
+    </Key>
+    <Property Name="IdRegularization" Type="int" Nullable="false" />
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="TypeMovement" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="RegularizationDate" Type="datetime" Nullable="false" />
+    <Property Name="RegularizationUser" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Remarks" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="StoreLocations">
+    <Key>
+      <PropertyRef Name="IdStore" />
+      <PropertyRef Name="LocationCode" />
+    </Key>
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="LocationCode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="LocationDescription" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Stores">
+    <Key>
+      <PropertyRef Name="IdStore" />
+    </Key>
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="StoreName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StoreDescription" Type="varchar" MaxLength="250" />
+    <Property Name="Owner" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Area" Type="nvarchar" MaxLength="2" />
+    <Property Name="StoreLocation" Type="varchar" MaxLength="100" />
+    <Property Name="Remarks" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Temp_Areas">
+    <Key>
+      <PropertyRef Name="WorkingArea" />
+    </Key>
+    <Property Name="WorkingAreaName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="WorkingArea" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="Telephone" Type="nvarchar" MaxLength="30" />
+    <Property Name="State" Type="nvarchar" MaxLength="100" />
+    <Property Name="PostalZIP" Type="nvarchar" MaxLength="30" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="30" />
+    <Property Name="Country" Type="nvarchar" MaxLength="100" />
+    <Property Name="Contact" Type="nvarchar" MaxLength="200" />
+    <Property Name="Company" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="Temp_Employees">
+    <Key>
+      <PropertyRef Name="EmployeeCode" />
+    </Key>
+    <Property Name="EmployeeCode" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="EmployeeName" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Temp_Providers">
+    <Key>
+      <PropertyRef Name="ProviderCode" />
+    </Key>
+    <Property Name="ProviderCode" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ProviderName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="SAPProvidercode" Type="nvarchar" MaxLength="15" />
+    <Property Name="Address" Type="nvarchar" MaxLength="150" />
+    <Property Name="City" Type="varchar" MaxLength="35" />
+    <Property Name="PostalZip" Type="varchar" MaxLength="10" />
+    <Property Name="Country" Type="varchar" MaxLength="15" />
+    <Property Name="CountryCode" Type="varchar" MaxLength="3" />
+    <Property Name="Telephone" Type="varchar" MaxLength="16" />
+    <Property Name="Active" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'VLStoreManagement.dbo.StockControl' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="StockControl">
+    <Key>
+      <PropertyRef Name="IdInventory" />
+      <PropertyRef Name="Order" />
+      <PropertyRef Name="Reference" />
+      <PropertyRef Name="IdStore" />
+      <PropertyRef Name="Location" />
+      <PropertyRef Name="Quantity" />
+    </Key>
+    <Property Name="IdInventory" Type="int" Nullable="false" />
+    <Property Name="Order" Type="int" Nullable="false" />
+    <Property Name="Reference" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Lot" Type="varchar" MaxLength="30" />
+    <Property Name="ExpireDate" Type="datetime" />
+    <Property Name="Quantity" Type="float" Nullable="false" />
+    <Property Name="Remarks" Type="varchar" MaxLength="2000" />
+    <Property Name="InventoryDate" Type="datetime" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'VLStoreManagement.dbo.vInventoryProducts' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vInventoryProducts">
+    <Key>
+      <PropertyRef Name="IdInventory" />
+      <PropertyRef Name="Location" />
+      <PropertyRef Name="Quantity" />
+    </Key>
+    <Property Name="IdInventory" Type="int" Nullable="false" />
+    <Property Name="Expr1" Type="varchar" MaxLength="15" />
+    <Property Name="Expr2" Type="varchar" MaxLength="100" />
+    <Property Name="Location" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Quantity" Type="float" Nullable="false" />
+    <Property Name="Lot" Type="varchar" MaxLength="30" />
+    <Property Name="ExpireDate" Type="datetime" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'VLStoreManagement.dbo.vRegularizationProducts' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vRegularizationProducts">
+    <Key>
+      <PropertyRef Name="Reference" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="IdRegularization" />
+      <PropertyRef Name="IdStore" />
+      <PropertyRef Name="Location" />
+    </Key>
+    <Property Name="Reference" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ProductName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="IdRegularization" Type="int" Nullable="false" />
+    <Property Name="IdStore" Type="int" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Inventory_Stores">
+    <End Role="Stores" Type="Self.Stores" Multiplicity="1" />
+    <End Role="Inventory" Type="Self.Inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stores">
+        <PropertyRef Name="IdStore" />
+      </Principal>
+      <Dependent Role="Inventory">
+        <PropertyRef Name="IdStore" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventory_Temp_Employees">
+    <End Role="Temp_Employees" Type="Self.Temp_Employees" Multiplicity="1" />
+    <End Role="Inventory" Type="Self.Inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Temp_Employees">
+        <PropertyRef Name="EmployeeCode" />
+      </Principal>
+      <Dependent Role="Inventory">
+        <PropertyRef Name="InventoryUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InventoryProducts_Inventory">
+    <End Role="Inventory" Type="Self.Inventory" Multiplicity="1" />
+    <End Role="InventoryProducts" Type="Self.InventoryProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Inventory">
+        <PropertyRef Name="IdInventory" />
+      </Principal>
+      <Dependent Role="InventoryProducts">
+        <PropertyRef Name="IdInventory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InventoryProducts_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="InventoryProducts" Type="Self.InventoryProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Reference" />
+      </Principal>
+      <Dependent Role="InventoryProducts">
+        <PropertyRef Name="Reference" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InventoryProducts_StoreLocations">
+    <End Role="StoreLocations" Type="Self.StoreLocations" Multiplicity="1" />
+    <End Role="InventoryProducts" Type="Self.InventoryProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StoreLocations">
+        <PropertyRef Name="IdStore" />
+        <PropertyRef Name="LocationCode" />
+      </Principal>
+      <Dependent Role="InventoryProducts">
+        <PropertyRef Name="IdStore" />
+        <PropertyRef Name="Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Products">
+    <End Role="ProductTypes" Type="Self.ProductTypes" Multiplicity="1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductTypes">
+        <PropertyRef Name="IdType" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="IdType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Products1">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="Products1" Type="Self.Products" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Reference" />
+      </Principal>
+      <Dependent Role="Products1">
+        <PropertyRef Name="Reference" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductsProviders_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="ProductsProviders" Type="Self.ProductsProviders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Reference" />
+      </Principal>
+      <Dependent Role="ProductsProviders">
+        <PropertyRef Name="Reference" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductsProviders_Temp_Providers">
+    <End Role="Temp_Providers" Type="Self.Temp_Providers" Multiplicity="1" />
+    <End Role="ProductsProviders" Type="Self.ProductsProviders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Temp_Providers">
+        <PropertyRef Name="ProviderCode" />
+      </Principal>
+      <Dependent Role="ProductsProviders">
+        <PropertyRef Name="ProviderCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegularizationProducts_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="RegularizationProducts" Type="Self.RegularizationProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Reference" />
+      </Principal>
+      <Dependent Role="RegularizationProducts">
+        <PropertyRef Name="Reference" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegularizationProducts_Regularizations">
+    <End Role="Regularizations" Type="Self.Regularizations" Multiplicity="1" />
+    <End Role="RegularizationProducts" Type="Self.RegularizationProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Regularizations">
+        <PropertyRef Name="IdRegularization" />
+      </Principal>
+      <Dependent Role="RegularizationProducts">
+        <PropertyRef Name="IdRegularization" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegularizationProducts_StoreLocations">
+    <End Role="StoreLocations" Type="Self.StoreLocations" Multiplicity="1" />
+    <End Role="RegularizationProducts" Type="Self.RegularizationProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StoreLocations">
+        <PropertyRef Name="IdStore" />
+        <PropertyRef Name="LocationCode" />
+      </Principal>
+      <Dependent Role="RegularizationProducts">
+        <PropertyRef Name="IdStore" />
+        <PropertyRef Name="Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegularizationProducts_Temp_Employees">
+    <End Role="Temp_Employees" Type="Self.Temp_Employees" Multiplicity="0..1" />
+    <End Role="RegularizationProducts" Type="Self.RegularizationProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Temp_Employees">
+        <PropertyRef Name="EmployeeCode" />
+      </Principal>
+      <Dependent Role="RegularizationProducts">
+        <PropertyRef Name="UserForOut" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Regularizations_Stores">
+    <End Role="Stores" Type="Self.Stores" Multiplicity="1" />
+    <End Role="Regularizations" Type="Self.Regularizations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stores">
+        <PropertyRef Name="IdStore" />
+      </Principal>
+      <Dependent Role="Regularizations">
+        <PropertyRef Name="IdStore" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Regularizations_Temp_Employees">
+    <End Role="Temp_Employees" Type="Self.Temp_Employees" Multiplicity="1" />
+    <End Role="Regularizations" Type="Self.Regularizations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Temp_Employees">
+        <PropertyRef Name="EmployeeCode" />
+      </Principal>
+      <Dependent Role="Regularizations">
+        <PropertyRef Name="RegularizationUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoreLocations_Stores">
+    <End Role="Stores" Type="Self.Stores" Multiplicity="1" />
+    <End Role="StoreLocations" Type="Self.StoreLocations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stores">
+        <PropertyRef Name="IdStore" />
+      </Principal>
+      <Dependent Role="StoreLocations">
+        <PropertyRef Name="IdStore" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Stores_Stores">
+    <End Role="Temp_Areas" Type="Self.Temp_Areas" Multiplicity="0..1" />
+    <End Role="Stores" Type="Self.Stores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Temp_Areas">
+        <PropertyRef Name="WorkingArea" />
+      </Principal>
+      <Dependent Role="Stores">
+        <PropertyRef Name="Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VLStoreManagementModelStoreContainer">
+    <EntitySet Name="Inventory" EntityType="Self.Inventory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InventoryProducts" EntityType="Self.InventoryProducts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductsProviders" EntityType="Self.ProductsProviders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductTypes" EntityType="Self.ProductTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegularizationProducts" EntityType="Self.RegularizationProducts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Regularizations" EntityType="Self.Regularizations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StoreLocations" EntityType="Self.StoreLocations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stores" EntityType="Self.Stores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Temp_Areas" EntityType="Self.Temp_Areas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Temp_Employees" EntityType="Self.Temp_Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Temp_Providers" EntityType="Self.Temp_Providers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StockControl" EntityType="Self.StockControl" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [StockControl].[IdInventory] AS [IdInventory], 
+    [StockControl].[Order] AS [Order], 
+    [StockControl].[Reference] AS [Reference], 
+    [StockControl].[IdStore] AS [IdStore], 
+    [StockControl].[Location] AS [Location], 
+    [StockControl].[Lot] AS [Lot], 
+    [StockControl].[ExpireDate] AS [ExpireDate], 
+    [StockControl].[Quantity] AS [Quantity], 
+    [StockControl].[Remarks] AS [Remarks], 
+    [StockControl].[InventoryDate] AS [InventoryDate]
+    FROM [dbo].[StockControl] AS [StockControl]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vInventoryProducts" EntityType="Self.vInventoryProducts" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vInventoryProducts].[IdInventory] AS [IdInventory], 
+    [vInventoryProducts].[Expr1] AS [Expr1], 
+    [vInventoryProducts].[Expr2] AS [Expr2], 
+    [vInventoryProducts].[Location] AS [Location], 
+    [vInventoryProducts].[Quantity] AS [Quantity], 
+    [vInventoryProducts].[Lot] AS [Lot], 
+    [vInventoryProducts].[ExpireDate] AS [ExpireDate]
+    FROM [dbo].[vInventoryProducts] AS [vInventoryProducts]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vRegularizationProducts" EntityType="Self.vRegularizationProducts" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vRegularizationProducts].[Reference] AS [Reference], 
+    [vRegularizationProducts].[ProductName] AS [ProductName], 
+    [vRegularizationProducts].[IdRegularization] AS [IdRegularization], 
+    [vRegularizationProducts].[IdStore] AS [IdStore], 
+    [vRegularizationProducts].[Location] AS [Location]
+    FROM [dbo].[vRegularizationProducts] AS [vRegularizationProducts]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Inventory_Stores" Association="Self.FK_Inventory_Stores">
+      <End Role="Stores" EntitySet="Stores" />
+      <End Role="Inventory" EntitySet="Inventory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventory_Temp_Employees" Association="Self.FK_Inventory_Temp_Employees">
+      <End Role="Temp_Employees" EntitySet="Temp_Employees" />
+      <End Role="Inventory" EntitySet="Inventory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InventoryProducts_Inventory" Association="Self.FK_InventoryProducts_Inventory">
+      <End Role="Inventory" EntitySet="Inventory" />
+      <End Role="InventoryProducts" EntitySet="InventoryProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InventoryProducts_Products" Association="Self.FK_InventoryProducts_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="InventoryProducts" EntitySet="InventoryProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InventoryProducts_StoreLocations" Association="Self.FK_InventoryProducts_StoreLocations">
+      <End Role="StoreLocations" EntitySet="StoreLocations" />
+      <End Role="InventoryProducts" EntitySet="InventoryProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Products" Association="Self.FK_Products_Products">
+      <End Role="ProductTypes" EntitySet="ProductTypes" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Products1" Association="Self.FK_Products_Products1">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Products1" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductsProviders_Products" Association="Self.FK_ProductsProviders_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductsProviders" EntitySet="ProductsProviders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductsProviders_Temp_Providers" Association="Self.FK_ProductsProviders_Temp_Providers">
+      <End Role="Temp_Providers" EntitySet="Temp_Providers" />
+      <End Role="ProductsProviders" EntitySet="ProductsProviders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegularizationProducts_Products" Association="Self.FK_RegularizationProducts_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RegularizationProducts" EntitySet="RegularizationProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegularizationProducts_Regularizations" Association="Self.FK_RegularizationProducts_Regularizations">
+      <End Role="Regularizations" EntitySet="Regularizations" />
+      <End Role="RegularizationProducts" EntitySet="RegularizationProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegularizationProducts_StoreLocations" Association="Self.FK_RegularizationProducts_StoreLocations">
+      <End Role="StoreLocations" EntitySet="StoreLocations" />
+      <End Role="RegularizationProducts" EntitySet="RegularizationProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegularizationProducts_Temp_Employees" Association="Self.FK_RegularizationProducts_Temp_Employees">
+      <End Role="Temp_Employees" EntitySet="Temp_Employees" />
+      <End Role="RegularizationProducts" EntitySet="RegularizationProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Regularizations_Stores" Association="Self.FK_Regularizations_Stores">
+      <End Role="Stores" EntitySet="Stores" />
+      <End Role="Regularizations" EntitySet="Regularizations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Regularizations_Temp_Employees" Association="Self.FK_Regularizations_Temp_Employees">
+      <End Role="Temp_Employees" EntitySet="Temp_Employees" />
+      <End Role="Regularizations" EntitySet="Regularizations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoreLocations_Stores" Association="Self.FK_StoreLocations_Stores">
+      <End Role="Stores" EntitySet="Stores" />
+      <End Role="StoreLocations" EntitySet="StoreLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Stores_Stores" Association="Self.FK_Stores_Stores">
+      <End Role="Temp_Areas" EntitySet="Temp_Areas" />
+      <End Role="Stores" EntitySet="Stores" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

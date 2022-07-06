@@ -1,0 +1,12 @@
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\VLStoreModel.dll.config
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\VLStoreModel.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\VLStoreModel.pdb
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\EntityFramework.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\EntityFramework.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\obj\Debug\VLStoreModel.csproj.AssemblyReference.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\obj\Debug\VLStoreModel.csproj.CoreCompileInputs.cache
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\obj\Debug\VLStoreModel.csproj.CopyComplete
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\obj\Debug\VLStoreModel.dll
+C:\Users\beca_dg2\Desktop\practicas\Proyecto\VLStoreModel\obj\Debug\VLStoreModel.pdb
